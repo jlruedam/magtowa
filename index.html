@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <meta name="author" content="Jorge Luis Rueda Marin"/>
+    <meta name="description" content="Pagina personal de mis tres gatas Magali, Tora y Wanda"/>
+    <title>MAGTOWA</title>
+    
+</head>
+<body>
+    <header>
+        <h1>MAGTOWA</h1>
+    </header>
+    <main>
+        <section>
+            <h2>MAGALI</h2>
+            <figure>
+                <img id="magali" src="./static/img/Magali.jpg" alt="Magali París" width="500"/>
+                <figcaption>Hola subdito, soy Magali París. La reina del Chillin´</figcaption>
+            </figure>
+        </section>
+        <hr/>
+        <section>
+            <h2>TORA</h2>
+            <figure>
+                <img id="tora" src="./static/img/Tori.jpg" alt="Tora Carolina" width="500"/>
+                <figcaption>Holi, Soy Tora Carolina. ¿Me puedes dar una caricita?</figcaption>
+            </figure>
+        </section>
+        <hr/>
+        <section>
+            <h2>WANDA</h2>
+            <figure>
+                <img id="wanda" src="./static/img/Wandix.jpg" alt="Wanda Alejandra" width="500"/>
+                <figcaption>Soy Wanda, ... te veo..</figcaption>
+            </figure
+
+        </section>
+    </main>
+    <hr/>
+    <footer>
+        <p>feel chillin</p>
+
+    </footer>
+    
+    <script>
+        var magali=document.getElementById("magali");
+        magali.addEventListener("click", moodMagali);
+        var tora=document.getElementById("tora");
+        tora.addEventListener("click", moodTora);
+        var wanda=document.getElementById("wanda");
+        wanda.addEventListener("click", moodWanda);
+
+        function moodMagali() {
+            alert("No me que toques!");
+        }
+        function moodTora() {
+            alert("Más caricias por favor");
+        }
+        function moodWanda() {
+            alert("...te veo...");
+        }
+        
+
+    </script>
+    
+</body>
+</html>
