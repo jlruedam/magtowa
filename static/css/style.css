@@ -6,4 +6,23 @@ header {
     text-align: center;
     border-radius: 10px;
     border-bottom: aqua solid 2px;
+    
+}
+
+main {
+    display: flex;
+    background-color:antiquewhite;
+    text-align: center;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: antiquewhite;
+    margin: 20px;
+    padding: 20px;
+    display: center;
+    text-align: center;
+    border-radius: 10px;
+    border-bottom: aqua solid 2px;
+    font-family: 'Courier New', Courier, monospace;
 }
