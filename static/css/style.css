@@ -7,3 +7,13 @@ header {
     border-radius: 10px;
     border-bottom: aqua solid 2px;
 }
+
+footer{
+    background-color:aquamarine;
+    margin: 20px;
+    padding: 20px;
+    display: center;
+    text-align: center;
+    border-radius: 10px;
+    border-bottom: aqua solid 2px;
+}
