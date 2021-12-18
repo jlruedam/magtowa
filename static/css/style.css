@@ -1,0 +1,9 @@
+header {
+    background-color: antiquewhite;
+    margin: 20px;
+    padding: 20px;
+    display: center;
+    text-align: center;
+    border-radius: 10px;
+    border-bottom: aqua solid 2px;
+}
