@@ -32,6 +32,10 @@ main {
     padding: 100px;
 }
 
+section{
+    margin: 20px;
+}
+
 footer {
     background-color: antiquewhite;
     padding: 20px;
@@ -40,7 +44,7 @@ footer {
     border-radius: 10px;
     border: aqua solid 2px;
     font-family: 'Courier New', Courier, monospace;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 
 }
 
