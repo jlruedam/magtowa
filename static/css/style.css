@@ -1,12 +1,24 @@
 header {
     background-color: antiquewhite;
-    margin: 20px;
     padding: 20px;
     display: center;
     text-align: center;
     border-radius: 10px;
-    border-bottom: aqua solid 2px;
+    border: aqua solid 2px;
+    margin-bottom: 10px;
+}
 
+#magtowa {
+    border: 2px solid  cadetblue;
+    border-radius: 10px;
+    
+}
+
+.fotosInicilaes {
+    border: 2px solid  cadetblue;
+    border-radius: 10px;
+    height: 250px;
+    width: 300px;
 }
 
 main {
@@ -14,16 +26,21 @@ main {
     background-color:antiquewhite;
     text-align: center;
     border-radius: 10px;
+    border: aqua solid 2px;
+    margin-bottom: 10px;
+    width: "100%";
+    padding: 100px;
 }
 
 footer {
     background-color: antiquewhite;
-    margin: 20px;
     padding: 20px;
     display: center;
     text-align: center;
     border-radius: 10px;
-    border-bottom: aqua solid 2px;
+    border: aqua solid 2px;
     font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 100px;
 
 }
+
