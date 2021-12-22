@@ -22,14 +22,18 @@ header {
 }
 
 main {
-    display: flex;
+   
     background-color:antiquewhite;
-    text-align: center;
     border-radius: 10px;
     border: aqua solid 2px;
     margin-bottom: 10px;
     width: "100%";
     padding: 100px;
+}
+
+#introGatas{
+    display:flex;
+    text-align: center;
 }
 
 section{
