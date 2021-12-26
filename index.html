@@ -11,19 +11,51 @@
     
 </head>
 <body>
-    <header>
-        <h1>MAGTOWA CLUB</h1>
-        <img id="magtowa" src="./static/img/Magtowa2.jpg" alt="magtowa"/>
+    <header class="header">
+        <h1 class="header__title">MAGTOWA CLUB</h1>
+        <figure class="header__figure">
+            <img  class="header__img" id="magtowa" src="./static/img/Magtowa2.jpg" alt="magtowa"/>
+        </figure>
+        
+        <nav class="nav">
+            <ul class="nav">
+                <li class="nav__item"><a class="nav__link">Inicio</a></li>
+                <li class="nav__item"><a class="nav__link">Juegos</a></li>
+                <li class="nav__item"><a class="nav__link">Adopciones</a></li>
+                <li class="nav__item"><a class="nav__link">Contactanos</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <section id="introGatas">
-            <article>
-                <h2>MAGALI</h2>
+
+    
+    <main class="main">
+        <section class="container">
+            <article class="article">
+                <h2 class="article__title">INTRODUCCIÓN</h2>
+                <div class="article__paragrahs">
+                    <p>
+                        Somos magotwa ...................................................................
+                        Sed dui leo, rutrum tempor est sit amet, vulputate scelerisque mauris. Maecenas sed sagittis metus. Curabitur placerat
+                        dui vel odio tincidunt, eu cursus massa egestas. Etiam malesuada neque ut aliquet egestas. Mauris molestie tristique
+                        lectus, vitae eleifend lorem cursus sit amet. Pellentesque sit amet semper dui. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Phasellus ullamcorper neque molestie turpis mattis, finibus pharetra dolor tempor. Duis sit amet
+                        vehicula massa. Nullam fringilla vulputate hendrerit. Vivamus dapibus placerat turpis, a vulputate nunc sagittis sit
+                        amet. Quisque quis felis tortor. In at mauris at nisl sagittis scelerisque ac et felis. Aliquam massa metus, sodales non
+                        volutpat nec, vehicula sit amet mi.
+
+                    </p>
+                </div>
+            </article>
+        </section>
+
+        <section class="container">
+            <article class="article">
+                <h2 class="article__title">MAGALI</h2>
                 <figure>
-                    <img class="fotosInicilaes" id="magali" src="./static/img/Magali.jpg" alt="Magali París" height="250"/>
+                    <img class="article__img" id="magali" src="./static/img/Magali.jpg" alt="Magali París" height="250"/>
                     <figcaption>Hola subdito, soy Magali París. La reina!</figcaption>
                 </figure>
-                <div>
+                <div class="article__paragrahs">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in hendrerit dolor, id mollis felis. 
                         Suspendisse at ex ac neque luctus consectetur.
@@ -39,9 +71,9 @@
                         Ut molestie luctus risus. 
                         Phasellus rhoncus maximus sem vitae elementum.
                     </p>
-                    <a href="./static/sections/magali.html" target="_blank">Ver mas..</a>
+                    <a  class="article__link" href="./static/sections/magali.html" target="_blank">Ver mas..</a>
                 </div><br/>
-                <div>
+                <div class="article__video">
                     <video width="250" height="300" controls muted="true">
                         <source src="./static/videos/magali.mp4" type="video/mp4">
                         Tu navegador no soporta HTML5 video.
@@ -49,13 +81,13 @@
                 </div>
             </article>
         
-            <article>
-                <h2>TORA</h2>
+            <article class="article">
+                <h2 class="article__title">TORA</h2>
                 <figure>
-                    <img class="fotosInicilaes" id="tora" src="./static/img/Tori.jpg" alt="Tora Carolina" height="250"/>
+                    <img class="article__img" id="tora" src="./static/img/Tori.jpg" alt="Tora Carolina" height="250"/>
                     <figcaption>Holi, Soy Tora Carolina. ¿Me puedes dar una caricita?</figcaption>
                 </figure>
-                <div>
+                <div class="article__paragrahs">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in hendrerit dolor, id mollis felis. 
                         Suspendisse at ex ac neque luctus consectetur.
@@ -71,21 +103,23 @@
                         Ut molestie luctus risus. 
                         Phasellus rhoncus maximus sem vitae elementum.
                     </p>
-                    <a href="./static/sections/tora.html" target="_blank">Ver mas..</a>
+                    <a class="article__link" href="./static/sections/tora.html" target="_blank">Ver mas..</a>
                 </div><br/>
-                <video width="250" height="300" controls muted="true">
-                    <source src="./static/videos/tora.mp4" type="video/mp4">
-                    Tu navegador no soporta HTML5 video.
-                </video>
+                <div class="article__video">
+                    <video width="250" height="300" controls muted="true">
+                        <source src="./static/videos/tora.mp4" type="video/mp4">
+                        Tu navegador no soporta HTML5 video.
+                    </video>
+                </div>
             </article>
-       
-            <article>
-                <h2>WANDA</h2>
+
+            <article class="article">
+                <h2 class="article__title">WANDA</h2>
                 <figure>
-                    <img class="fotosInicilaes" id="wanda" src="./static/img/Wanda.jpg" alt="Wanda Alejandra" height="250"/>
+                    <img class="article__img" id="wanda" src="./static/img/Wanda.jpg" alt="Wanda Alejandra" height="250"/>
                     <figcaption>Soy Wanda Alejandra, ... te veo..</figcaption>
                 </figure>
-                <div>
+                <div class="article__paragrahs">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in hendrerit dolor, id mollis felis. 
                         Suspendisse at ex ac neque luctus consectetur.
@@ -101,14 +135,14 @@
                         Ut molestie luctus risus. 
                         Phasellus rhoncus maximus sem vitae elementum.
                     </p>
-                    <a href="./static/sections/wanda.html" target="_blank">Ver mas..</a>
+                    <a class="article__link" href="./static/sections/wanda.html" target="_blank">Ver mas..</a>
                 </div><br/>
                 <video width="250" height="300" controls muted="true">
                     <source src="./static/videos/wanda.mp4" type="video/mp4">
                     Tu navegador no soporta HTML5 video.
                 </video>
             </article>
-        </section><hr/>
+        </section>
         <section>
             <div><h3>Envianos tus comentarios:</h3></div>
             <div>

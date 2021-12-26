@@ -1,44 +1,112 @@
-header {
+.header {
     background-color: antiquewhite;
-    padding: 20px;
-    display: center;
-    text-align: center;
+    padding: 0px;
+    /*display: center;*/
+    /* text-align: center; */
     border-radius: 10px;
-    border: aqua solid 2px;
-    margin-bottom: 10px;
+    border: 2px solid cadetblue;
+    margin-bottom: 30px;
 }
 
-#magtowa {
-    border: 2px solid  cadetblue;
-    border-radius: 10px;
+.header__title{
+    color:cadetblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 3rem;
+}
+
+.header__figure{
+    text-align: center;
+    margin:0;
     
 }
 
-.fotosInicilaes {
-    border: 2px solid  cadetblue;
+.header__img {
+    /* border: 2px solid  cadetblue; */
+    border-radius: 10px;
+    width: 92rem;
+    margin:0;
+    max-width: 100%;
+    
+}
+
+.nav{
+    margin: 0px;
+    list-style: none;
+    padding-left: 0px;
+    background-color:cadetblue;
+    border-radius: 10px;
+    padding-top: 0.5rem;
+    margin-bottom: -20px;
+    text-align: center;
+}
+
+.nav__item{
+    display: inline-block;
+    margin: 0px 30px;
+    
+}
+
+.nav__link{
+    color:white;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* .nav__link::after{
+    content:" | " 
+}
+
+.nav__link::before{
+    content:" | " 
+} */
+
+.main {
+
+    background-color:antiquewhite;
+    border-radius: 10px;
+    border: cadetblue solid 2px;
+    margin-bottom: 10px;
+    width: "100%";
+    /* padding: 100px; */
+}
+
+.container{
+    display:flex;
+    text-align: center;
+    max-width: 100%;
+    border-bottom: 10px solid cadetblue ;
+}
+
+.article{
+    margin: 40px;
+    max-width: 100%;
+    
+}
+
+.article__title{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.article__paragrahs{
+    text-align: justify;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.article__img{
+    border: 2px solid cadetblue;
     border-radius: 10px;
     height: 250px;
     width: 300px;
 }
 
-main {
-   
-    background-color:antiquewhite;
-    border-radius: 10px;
-    border: aqua solid 2px;
-    margin-bottom: 10px;
-    width: "100%";
-    padding: 100px;
-}
-
-#introGatas{
-    display:flex;
-    text-align: center;
-}
-
-section{
-    margin: 20px;
-}
+/* .article__video{
+    
+} */
 
 footer {
     background-color: antiquewhite;
@@ -46,7 +114,7 @@ footer {
     display: center;
     text-align: center;
     border-radius: 10px;
-    border: aqua solid 2px;
+    border: cadetblue solid 2px;
     font-family: 'Courier New', Courier, monospace;
     margin-bottom: 50px;
 
