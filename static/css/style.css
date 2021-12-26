@@ -1,3 +1,24 @@
+@media (max-width:320px)  { 
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    .container{  
+        display:flex;
+        text-align: center;
+        max-width: 100%;
+        border-bottom: 5px solid cadetblue ;
+    }
+    
+}
+@media (min-width:1025px) { 
+    /* big landscape tablets, laptops, and desktops */ 
+    .container{
+        display:flex;
+        text-align: center;
+        max-width: 100%;
+        border-bottom: 10px solid cadetblue ;
+    }
+
+}
+
 .header {
     background-color: antiquewhite;
     padding: 0px;
@@ -11,10 +32,10 @@
 .header__title{
     color:cadetblue;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 4rem;
+    font-size: 50px;
     text-align: center;
     width: 100%;
-    letter-spacing: 3rem;
+    letter-spacing: 30px;
 }
 
 .header__figure{
@@ -75,12 +96,12 @@
     /* padding: 100px; */
 }
 
-.container{
+/* .container{
     display:flex;
     text-align: center;
     max-width: 100%;
     border-bottom: 10px solid cadetblue ;
-}
+} */
 
 .article{
     margin: 40px;
@@ -119,4 +140,9 @@ footer {
     margin-bottom: 50px;
 
 }
+
+
+
+
+
 
