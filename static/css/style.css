@@ -1,3 +1,4 @@
+
 @media (max-width:320px)  { 
     /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
     .container{  
@@ -5,6 +6,13 @@
         text-align: center;
         max-width: 100%;
         border-bottom: 5px solid cadetblue ;
+    }
+
+    .article__img{
+        border: 2px solid cadetblue;
+        border-radius: 10px;
+        height: 200px;
+        width: 250px;
     }
     
 }
@@ -15,6 +23,13 @@
         text-align: center;
         max-width: 100%;
         border-bottom: 10px solid cadetblue ;
+    }
+
+    .article__img{
+        border: 2px solid cadetblue;
+        border-radius: 10px;
+        height: 250px;
+        width: 300px;
     }
 
 }
@@ -118,12 +133,12 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.article__img{
+/* .article__img{
     border: 2px solid cadetblue;
     border-radius: 10px;
     height: 250px;
     width: 300px;
-}
+} */
 
 /* .article__video{
     
