@@ -28,7 +28,11 @@
         max-width: 100%;
         border-bottom: 10px solid cadetblue ;
     }
-
+    
+    .article__video video{
+        width: fit-content;
+        
+    }
 
 }
 @media (min-width:480px)  { 
@@ -184,6 +188,7 @@
     text-align: justify;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:cadetblue;
+    
 }
 
 .article__link{
@@ -192,8 +197,6 @@
     padding: 10px;
     border-radius: 30px;
     color: cadetblue;
-    
-
 }
 /* .article__img{
     border: 2px solid cadetblue;
@@ -202,9 +205,14 @@
     width: 300px;
 } */
 
-/* .article__video{
+.article__video video{
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0px;
+    background-color: azure;
     
-} */
+}
 
 footer {
     background-color: antiquewhite;
