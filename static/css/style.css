@@ -1,85 +1,16 @@
-
-@media (min-width:320px)  { 
-/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-    .header__title{
-        
-        font-size: 30px;
-        letter-spacing: 20px;
-        padding-left: 10px;
-    }
-
-    .article__paragrahs{
-        box-sizing: border-box;
-        font-size:x-small;
-        
-    }
-
-    .article__img{
-        box-sizing: border-box;
-        height: 150px;
-        width: 150px;
-        padding: 0;
-        margin: 0;
-    }
-
-    .container{
-        display:inline-block;
-        text-align: center;
-        max-width: 100%;
-        border-bottom: 10px solid cadetblue ;
-    }
-    
-    .article__video video{
-        width: fit-content;
-        
-    }
-
-}
-@media (min-width:480px)  { 
-/* smartphones, Android phones, landscape iPhone */ 
-    .header__title{
-        color:cadetblue;
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 40px;
-        text-align: center;
-        width: 100%;
-        letter-spacing: 20px;
-    }
-}
-@media (min-width:600px)  { 
-/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
-}
-@media (min-width:801px)  { 
-/* tablet, landscape iPad, lo-res laptops ands desktops */ 
-}
-@media (min-width:1025px) { 
-/* big landscape tablets, laptops, and desktops */ 
-}
-@media (min-width:1281px) { 
-/* hi-res laptops and desktops */ 
+html {
+    font-size: 62.5%;
 }
 
-/* .container{
-    display:flex;
-    text-align: center;
-    max-width: 100%;
-    border-bottom: 10px solid cadetblue ;
-} */
 
-.article__img{
-    border: 2px solid cadetblue;
-    border-radius: 10px;
-    /* height: 250px;
-    width: 300px; */
-}
-
-.article figure figcaption{
-    background-color: cadetblue;
-    margin: 0%;
-    color:azure;
-    border-radius: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 0.5px;
+.header {
+    background-color: antiquewhite;
+    padding: 0;
+    /*display: center;*/
+    /* text-align: center; */
+    border-radius: 1rem;
+    border: 0.2rem solid cadetblue;
+    margin-bottom: 1rem;
 }
 
 .header__title{
@@ -87,22 +18,9 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     width: 100%;
-    /* font-size: 50px;
-    letter-spacing: 30px; */
+    font-size: 3rem;
+    letter-spacing: 2rem;
 }
-
-
-.header {
-    background-color: antiquewhite;
-    padding: 0px;
-    /*display: center;*/
-    /* text-align: center; */
-    border-radius: 10px;
-    border: 2px solid cadetblue;
-    margin-bottom: 30px;
-}
-
-
 
 .header__figure{
     text-align: center;
@@ -110,35 +28,30 @@
     
 }
 
-
-
 .header__img {
     /* border: 2px solid  cadetblue; */
-    border-radius: 10px;
-    width: 92rem;
-    margin:0;
-    max-width: 100%;
-    
+    border-radius: 1rem;
+    width: 100%;
+    margin:0 auto;
 }
 
 .nav{
-    margin: 0px;
+    margin: 0;
     list-style: none;
-    padding-left: 0px;
-    /* background-color:cadetblue; */
-    border-radius: 10px;
+    padding-left: 0;
+    border-radius: 1rem;
     padding-top: 0.5rem;
-    margin-bottom: -20px;
+    margin-bottom: -1rem;
     text-align: center;
 }
 
 .nav__item{
     display: block;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    border: 1px solid azure;
-    border-radius: 20px;
+    border: 0.01rem solid azure;
+    border-radius: 2rem;
     background-color: cadetblue;
     
 }
@@ -159,35 +72,63 @@
     
 }
 
-
-
-/* .nav__link::after{
-    content:" | " 
+.article__paragrahs{
+    box-sizing: border-box;
+    font-size:x-small;
+    
 }
 
-.nav__link::before{
-    content:" | " 
-} */
+.container{
+    display:inline-block;
+    text-align: center;
+    max-width: 100%;
+    border-bottom: 1rem solid cadetblue ;
+}
+
+.article__img{
+    box-sizing: border-box;
+    height: 15rem;
+    width: 20rem;
+    padding: 0;
+    margin: 0;
+}
+
+.article__img{
+    border: 0.2rem solid cadetblue;
+    border-radius: 1rem;
+    
+}
+
+
+.article figure figcaption{
+    background-color: cadetblue;
+    margin: 0;
+    color:azure;
+    border-radius: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0.05rem;
+    max-width: 20rem;
+    margin: 0 auto;
+}
+
+
+.article__video video{
+    width: fit-content;
+}
+
 
 .main {
 
     background-color:antiquewhite;
-    border-radius: 10px;
-    border: cadetblue solid 2px;
-    margin-bottom: 10px;
+    border-radius: 1rem;
+    border: cadetblue solid 0.2rem;
+    margin-bottom: 0.5rem;
     width: "100%";
-    /* padding: 100px; */
 }
 
-/* .container{
-    display:flex;
-    text-align: center;
-    max-width: 100%;
-    border-bottom: 10px solid cadetblue ;
-} */
 
 .article{
-    margin: 40px;
+    margin: 4rem;
     max-width: 100%;
     
 }
@@ -207,22 +148,17 @@
 .article__link{
     text-decoration: none;
     background-color: aliceblue;
-    padding: 10px;
-    border-radius: 30px;
+    padding: 1rem;
+    border-radius: 3rem;
     color: cadetblue;
 }
-/* .article__img{
-    border: 2px solid cadetblue;
-    border-radius: 10px;
-    height: 250px;
-    width: 300px;
-} */
+
 
 .article__video video{
-    border: 1px solid cadetblue;
-    border-radius: 10px;
+    border: 0.1rem solid cadetblue;
+    border-radius: 1rem;
     text-align: center;
-    padding: 0px;
+    padding: 0;
     background-color: azure;
     
 }
@@ -232,24 +168,17 @@ footer {
     display: center;
     text-align: center;
 
-    margin-bottom: 50px;
-    padding: 20px;
-    border-radius: 10px;
-    border: cadetblue solid 2px;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: cadetblue solid 0.2rem;
         
     color: cadetblue;
     font-family: 'Courier New', Courier, monospace;
     font-style:oblique;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight:bolder;
-    color: cadetblue;
-    
-    
 
 }
 
-
-
-
-
-
+    
