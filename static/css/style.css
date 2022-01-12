@@ -1,19 +1,36 @@
+:root{
+    --mainColorBg:antiquewhite;
+    --auxColorBg:cadetblue;
+    --seeMoreColorBg:aliceblue;
+    --mainBorderColor:cadetblue;
+    --auxBorderColor:azure;
+    --letterDark:cadetblue;
+    --letterWhite:azure;
+    --colorHover:aqua;
+    --colorActive:chartreuse;
+}
+
 html {
     font-size: 62.5%;
 }
 
 
+
+
 .header {
-    background-color: antiquewhite;
+    box-sizing: border-box;
+    background-color: var(--mainColorBg);
     padding: 0;
     border-radius: 10px;
-    border: 2px solid cadetblue;
+    border: 2px solid var(--mainBorderColor);
     margin-bottom: 10px;
+    display: flex;
+    
     
 }
 
 .header__title{
-    color:cadetblue;
+    color:var(--auxColorBg);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     width: 50%;
@@ -55,24 +72,24 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid azure;
+    border: 1px solid var(--auxBorderColor);
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    background-color: cadetblue;
+    background-color: var(--mainColorBg);
     width:300px;
     height: 30px;
 }
 
 .nav__item:hover{
-    background-color:aqua;   
+    background-color:var(--colorHover);   
 }
 
 .nav__item:active{
-    background-color:chartreuse;   
+    background-color:var(--colorActive);   
 }
 
 .nav__link{
-    color:azure;
+    color:var(--letterWhite);
     text-decoration: none;
     font-size: 2rem;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -89,7 +106,7 @@ html {
     display: flex;
     text-align: center;
     max-width: 100%;
-    border-bottom: 1rem solid cadetblue ;
+    border-bottom: 10px solid var(--mainBorderColor) ;
 }
 
 .article__img{
@@ -101,16 +118,16 @@ html {
 }
 
 .article__img{
-    border: 0.2rem solid cadetblue;
+    border: 0.2rem solid var(--mainBorderColor);
     border-radius: 1rem;
     
 }
 
 
 .article figure figcaption{
-    background-color: cadetblue;
+    background-color: var(--auxColorBg);
     margin: 0;
-    color:azure;
+    color:var(--letterWhite);
     border-radius: 1rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 0.05rem;
@@ -126,9 +143,9 @@ html {
 
 .main {
 
-    background-color:antiquewhite;
+    background-color:var(--mainColorBg);
     border-radius: 10px;
-    border: cadetblue solid 2px;
+    border: var(--mainBorderColor) solid 2px;
     margin-bottom: 5px;
     width: "100%";
 }
@@ -143,8 +160,8 @@ html {
 
 .article__title{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:azure;
-    background-color: cadetblue;
+    color:var(--letterWhite);
+    background-color: var(--auxColorBg);
     border-radius: 10px;
     width: fit-content;
     padding: 5px;
@@ -153,39 +170,39 @@ html {
 .article__paragrahs{
     text-align: justify;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:cadetblue;
+    color:var(--letterDark);
     
 }
 
 .article__link{
     text-decoration: none;
-    background-color: aliceblue;
+    background-color:var(--seeMoreColorBg);
     padding: 1rem;
     border-radius: 3rem;
-    color: cadetblue;
+    color:var(--letterDark);
 }
 
 
 .article__video video{
-    border: 0.1rem solid cadetblue;
+    border: 0.1rem solid var(--mainBorderColor);
     border-radius: 1rem;
     text-align: center;
     padding: 0;
-    background-color: azure;
+    background-color:var(--mainColorBg);
     
 }
 
 footer {
-    background-color: antiquewhite;
+    background-color: var(--mainColorBg);
     display: center;
     text-align: center;
 
     margin-bottom: 1rem;
     padding: 2rem;
     border-radius: 1rem;
-    border: cadetblue solid 0.2rem;
+    border: var(--mainBorderColor) solid 0.2rem;
         
-    color: cadetblue;
+    color: var(--letterDark);
     font-family: 'Courier New', Courier, monospace;
     font-style:oblique;
     font-size: 2rem;
