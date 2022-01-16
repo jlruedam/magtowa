@@ -63,11 +63,10 @@ html {
     border-radius: 10px;
     padding-top: 5px;
     margin-bottom: -10px;
-    text-align: center;
+    /* text-align: center; */
     display: flex;
-    justify-content: center;
+    /* justify-content:center; */
     flex-wrap: wrap;
-    
 }
 
 .nav__item{
@@ -79,8 +78,12 @@ html {
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     background-color: var(--auxColorBg);
-    width:100%;
     height: fit-content;
+    /* height: 10rem; */
+    flex-basis: 20rem;
+    flex-grow:2;
+    min-width: 25rem;
+    text-align: center;
 }
 
 .nav__item:hover{
