@@ -121,6 +121,7 @@ html {
 .article{
     margin: 20px;
     max-width: 100%;
+    
 }
 
 .article__title{
@@ -143,17 +144,27 @@ html {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:var(--letterDark);
     width: 100%;
-    background-color: black;
+    
 }
 .article__link{
-    text-decoration: none;
+   
     background-color:var(--seeMoreColorBg);
     padding: 10px;
     border-radius: 30px;
+    width: fit-content;
+
+}  
+
+.article__link a{
+    text-decoration: none;
     color:var(--letterDark);
-    margin: 20px 0;
-    
+    font-size:1.6rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
+
+
+
 
 .article__img{
     box-sizing: border-box;
@@ -189,6 +200,7 @@ html {
 
 .article__video{
     box-sizing: border-box;
+    margin: 10px;
 }
 
 .article__video video{
