@@ -8,7 +8,7 @@
     --letterWhite:azure;
     --colorHover:aqua;
     --colorActive:chartreuse;
-    
+
 }
 
 html {
@@ -36,15 +36,18 @@ html {
     width: 100%;
     font-size: 4rem;
     letter-spacing: 2rem;
-    margin:10px auto;
+    margin:12px auto;
     box-sizing: border-box;
+    text-shadow: 0px 12px 6px var(--letterWhite);
+
 }
+
 
 .header__figure{
     text-align: center;
     margin:0;
     border: 0;
-    
+
 }
 
 .header__img {
@@ -87,11 +90,11 @@ html {
 }
 
 .nav__item:hover{
-    background-color:var(--colorHover);   
+    background-color:var(--colorHover);
 }
 
 .nav__item:active{
-    background-color:var(--colorActive);   
+    background-color:var(--colorActive);
 }
 
 .nav__link{
@@ -99,7 +102,7 @@ html {
     text-decoration: none;
     font-size: 3rem;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+
 }
 
 .main {
@@ -124,7 +127,7 @@ html {
 .article{
     margin: 20px;
     max-width: 100%;
-    
+
 }
 
 .article__title{
@@ -147,16 +150,16 @@ html {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:var(--letterDark);
     width: 100%;
-    
+
 }
 .article__link{
-   
+
     background-color:var(--seeMoreColorBg);
     padding: 10px;
     border-radius: 30px;
     width: fit-content;
 
-}  
+}
 
 .article__link a{
     text-decoration: none;
@@ -177,7 +180,7 @@ html {
     margin: 0;
     border: 0.2rem solid var(--mainBorderColor);
     border-radius: 1rem;
-    
+
 }
 
 .article figure{
@@ -185,7 +188,7 @@ html {
     padding: 1px;
     box-sizing: border-box;
     width: fit-content;
-    
+
 }
 
 .article figure figcaption{
@@ -225,7 +228,7 @@ footer {
     padding: 2rem;
     border-radius: 1rem;
     border: var(--mainBorderColor) solid 2px;
-        
+
     color: var(--letterDark);
     font-family: 'Courier New', Courier, monospace;
     font-style:oblique;
@@ -233,4 +236,3 @@ footer {
 
 }
 
-    
